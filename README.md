@@ -9,11 +9,16 @@ Le Snipe_new_token-Bot utilise une combinaison de techniques de scan et d'analys
 # Comment utiliser le Snipe_new_token-Bot ?
 
 - Installation de Python : Rendez-vous sur https://www.python.org/ pour installer Python.
-- Création d'un fichier : Utilisez votre IDE préféré et créez un fichier avec l'extension ".py". Par exemple, "Snipe_new_token_Bot.py".
-- Installation de la bibliothèque web3py : Assurez-vous d'avoir installé la bibliothèque Python web3 en utilisant la commande "pip install web3".
-- Ouvrez le fichier "Thebot.py" : Copiez le code et collez-le dans le fichier que vous venez de créer.
-- Rendez-vous sur infura ou Quicknode pour avoir accès à un node et coller votre clé dans la variable file du fichier secret.json.
-- Démarrage du bot : Ouvrez un nouveau terminal et entrez la commande suivante (par exemple, si votre fichier s'appelle "Snipe_new_token_Bot.py") : python Snipe_new_token_Bot.py.
+- Clonez ce repo ou Téléchargez le en .zip avant de l'extraire.
+
+```git clone git@github.com:0xCurtis/Fork_Snipe_new_token-Bot.git```
+
+- Ouvrez un terminal dans le dossier que vous venez d'extraire/cloner
+- ```pip install -r requirements.txt```
+- Renommez le fichier .env_template en .env et collez votre URL [Infura](https://app.infura.io)
+![img_1.png](img/img_1.png)
+![img_2.png](img/img_2.png)
+- python Thebot.py
 
 N'hésitez pas à explorer les fonctionnalités du bot en examinant le code source et en apportant vos propres améliorations ! Les contributions visant à améliorer le Snipe_new_token-Bot sont les bienvenues !
 
@@ -23,5 +28,7 @@ Veuillez noter que le Snipe_new_token-Bot est fourni à titre informatif uniquem
 
 # Contact
 
-Si vous avez des questions, des suggestions ou des commentaires, n'hésitez pas à me contacter sur Twitter @Mahfq.
+Si vous avez des questions, des suggestions ou des commentaires, n'hésitez pas à me contacter sur Twitter [@Mahfq](https://twitter.com/Mahfq).
+
+Fork by [@0xCurtisuke](https://twitter.com/0xCurtisuke) on Twitter.
 
